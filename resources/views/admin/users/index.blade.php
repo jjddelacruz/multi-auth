@@ -42,21 +42,24 @@
 
                     <tr>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                            id
+                        </td>
+
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                            name
 
                         </td>
 
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-
+                            email
                         </td>
 
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-
+                           verify date
                         </td>
 
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-
+                            roles
                         </td>
 
                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
