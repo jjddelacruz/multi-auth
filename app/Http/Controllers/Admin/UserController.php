@@ -15,7 +15,6 @@ class UserController extends Controller
      */
     public function index(Request $request)
     {
-
         $search =  $request->input('term');
         if ($search != "") {
             $users = User::where(function ($query) use ($search) {

@@ -34,3 +34,7 @@ Route::group(['middleware' => 'auth'], function () {
         Route::resource('users', \App\Http\Controllers\Admin\UserController::class);
     });
 });
+
+
+
+Route::resource('/users', \App\Http\Controllers\Admin\UserController::class);
