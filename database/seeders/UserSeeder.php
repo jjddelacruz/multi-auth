@@ -25,24 +25,6 @@ class UserSeeder extends Seeder
             'teacher_qualifications' => "112313154",
         ]);
         User::create([
-            'name' => 'Student',
-            'email' => 'Student@test.com',
-            'password' => Hash::make('12345678'),
-            'role_id' => "2",
-            'student_address' => "1",
-            'student_licence_number' => "",
-            'teacher_qualifications' => "112313154",
-        ]);
-        User::create([
-            'name' => 'Teacher',
-            'email' => 'Teacher@test.com',
-            'password' => Hash::make('12345678'),
-            'role_id' => "3",
-            'student_address' => "1",
-            'student_licence_number' => "",
-            'teacher_qualifications' => "112313154",
-        ]);
-        User::create([
             'name' => 'Dispatcher',
             'email' => 'Dispatcher@test.com',
             'password' => Hash::make('12345678'),
